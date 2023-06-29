@@ -1,0 +1,95 @@
+{
+  "name": "CRM_Sanity_Suite",
+  "description": "Test Automation Project",
+  "main": "Main.xaml",
+  "dependencies": {
+    "ReporterForUiPath.Activities": "[3.0.1]",
+    "UiPath.Excel.Activities": "[2.12.3]",
+    "UiPath.PDF.Activities": "[3.6.0]",
+    "UiPath.System.Activities": "[22.4.1]",
+    "UiPath.Testing.Activities": "[22.4.3]",
+    "UiPath.UIAutomation.Activities": "[22.4.5]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "22.4.3.0",
+  "projectVersion": "1.0.51",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Tests",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "553dd05c-5bfe-4ab4-bb77-91b5e1e17ff3",
+        "testCaseType": "TestCase",
+        "fileName": "TestCase.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "6a87f682-9a3a-406b-956f-2c606453d6e2",
+        "testCaseType": "TestCase",
+        "fileName": "TestCases\\TC011_CRM_AbilityToMarkBrokerContactAsInactive.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "f8a7521d-3e14-4a7a-ae49-6ad94dc07768",
+        "testCaseType": "TestCase",
+        "fileName": "TestCases\\TC009_CRM_EnhancementsToBrokerGridSearchFunctionalityColdTarget.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "64d1e29e-d9af-44e3-b111-5f039c41ce18",
+        "testCaseType": "TestCase",
+        "fileName": "TestCases\\TC009_02_CRM_EnhancementsToBrokerGridSearchFunctionalityOrganicTarget.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "0239f97f-5583-4cb8-82ad-a8ed2559b931",
+        "testCaseType": "TestCase",
+        "fileName": "TestCases\\TC007_CRM_BrokerContactFlagResetwhenContactIsUpdated.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "441d82f9-2d1a-433b-91e2-cb22940d056d",
+        "testCaseType": "TestCase",
+        "fileName": "TestCases\\Reporter.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "acc396a4-48eb-4fc6-9bc8-2c15dd209109",
+        "testCaseType": "TestCase",
+        "fileName": "TestCases\\TC008_CRM_MemberAndMemberGroupFromVerification.xaml"
+      }
+    ],
+    "modernBehavior": true
+  },
+  "expressionLanguage": "VisualBasic",
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}
